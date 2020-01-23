@@ -1,0 +1,21 @@
+# default
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+*.info text eol=lf
+*.mcmeta text eol=lf
+*.md text eol=lf
+*.properties text eol=lf
+
+# scripts
+*.ahk text eol=crlf
+*.bat text eol=crlf
+*.gradle text eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.psd binary
+*.zip binary
